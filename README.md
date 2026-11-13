@@ -1,5 +1,9 @@
 # Digital Fest — figuras desde imágenes
 
+## Abrir la app
+
+La entrada `index.html` de la raíz abre automáticamente la app de `webar/`. Para publicar este repositorio completo, configura **Settings → Pages → Deploy from a branch → main → / (root)**. Los modelos y las bibliotecas conservan sus rutas dentro de `webar/`.
+
 Referencias generadas con la herramienta integrada de imágenes el 11 de noviembre de 2026:
 
 - `references/caballero-oscuro.png`: jefe oscuro original de armadura de hierro y detalles de bronce.
