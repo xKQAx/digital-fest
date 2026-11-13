@@ -1,0 +1,14 @@
+Missing weights: 10.15 GB; free: 110.81 GB; reserve: 5 GB
+
+Fetching 32 files:   0%|          | 0/32 [00:00<?, ?it/s]
+Fetching 32 files:  50%|#####     | 16/32 [00:00<00:00, 149.47it/s]
+Fetching 32 files:  50%|#####     | 16/32 [00:20<00:20,  1.25s/it] 
+Fetching 32 files:  53%|#####3    | 17/32 [00:26<00:23,  1.54s/it]
+Fetching 32 files:  69%|######8   | 22/32 [01:04<00:29,  2.95s/it]
+Fetching 32 files:  88%|########7 | 28/32 [01:19<00:11,  2.85s/it]
+Fetching 32 files:  91%|######### | 29/32 [01:20<00:08,  2.77s/it]
+Fetching 32 files:  94%|#########3| 30/32 [01:20<00:05,  2.68s/it]
+Fetching 32 files:  97%|#########6| 31/32 [01:38<00:03,  3.19s/it]
+Downloaded revision 9cd649ba6913f7a852e3286bad86bfa9a2d83dcf
+Fetching 32 files: 100%|##########| 32/32 [01:55<00:00,  3.61s/it]
+Fetching 32 files: 100%|##########| 32/32 [01:55<00:00,  3.61s/it]

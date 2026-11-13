@@ -1,0 +1,7 @@
+{
+  "torch": "2.7.0+cu128",
+  "gpu": "NVIDIA GeForce RTX 5070 Ti Laptop GPU",
+  "pipeline_source": "C:\\Users\\santi\\OneDrive\\Documents\\Modly\\extensions\\hunyuan3d-paint\\vendor\\hy3dgen\\texgen\\pipelines.py",
+  "pipeline_signature": "(model_path, subfolder='hunyuan3d-paint-v2-0-turbo')",
+  "status": "imports_ok_weights_not_loaded"
+}

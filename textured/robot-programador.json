@@ -1,0 +1,14 @@
+{
+  "file": "robot-programador.glb",
+  "bytes": 2604552,
+  "triangles": 50000,
+  "vertices": 30406,
+  "texture_size": [
+    1024,
+    1024
+  ],
+  "embedded_textures": 1,
+  "height_m": 1,
+  "normals": true,
+  "uv": true
+}

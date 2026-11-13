@@ -1,0 +1,40 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Workflow run 74c32a4f-90a0-496b-a583-d5c4a5dec332: error."
+    }
+  ],
+  "structuredContent": {
+    "ok": true,
+    "data": {
+      "run": {
+        "run_id": "74c32a4f-90a0-496b-a583-d5c4a5dec332",
+        "status": "error",
+        "progress": 7,
+        "step": "Downloading Generate Mesh…",
+        "output_url": null,
+        "error": "Traceback (most recent call last):\n  File \"C:\\Users\\santi\\AppData\\Local\\Programs\\Modly\\resources\\api\\routers\\generation.py\", line 317, in _run_generation_impl\n    gen = get_generator()\n          ^^^^^^^^^^^^^^^\n  File \"C:\\Users\\santi\\AppData\\Local\\Programs\\Modly\\resources\\api\\routers\\generation.py\", line 297, in <lambda>\n    get_generator = (lambda: generator_registry.activate_ready_generator(model_id)) \\\n                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\santi\\AppData\\Local\\Programs\\Modly\\resources\\api\\services\\generator_registry.py\", line 840, in activate_ready_generator\n    return self.get_ready_generator(model_id)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\santi\\AppData\\Local\\Programs\\Modly\\resources\\api\\services\\generator_registry.py\", line 833, in get_ready_generator\n    gen.load()\n  File \"C:\\Users\\santi\\AppData\\Local\\Programs\\Modly\\resources\\api\\services\\extension_process.py\", line 288, in load\n    msg = self._recv(timeout=None)  # model load can be arbitrarily slow\n          ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\santi\\AppData\\Local\\Programs\\Modly\\resources\\api\\services\\extension_process.py\", line 265, in _recv\n    raise RuntimeError(f\"[{self.MODEL_ID}] Subprocess died unexpectedly\")\nRuntimeError: [hunyuan3d-mini/generate] Subprocess died unexpectedly",
+        "scene_candidate": null,
+        "runId": "74c32a4f-90a0-496b-a583-d5c4a5dec332",
+        "outputUrl": null,
+        "sceneCandidate": null
+      },
+      "meta": {
+        "terminal": true,
+        "operation": {
+          "kind": "workflowRun",
+          "runId": "74c32a4f-90a0-496b-a583-d5c4a5dec332"
+        },
+        "operationState": "failed",
+        "nextAction": {
+          "kind": "observe_terminal",
+          "tool": "modly.workflowRun.status",
+          "input": {
+            "runId": "74c32a4f-90a0-496b-a583-d5c4a5dec332"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "modelId": "hunyuan3d-mini/generate",
+  "params": {
+    "remesh": "none",
+    "octree_resolution": 256,
+    "guidance_scale": 5.5,
+    "num_inference_steps": 30,
+    "seed": 411
+  },
+  "imagePath": "C:\\Users\\santi\\OneDrive\\Documents\\Modly\\workspace\\digital-fest\\references\\caballero-oscuro.png"
+}

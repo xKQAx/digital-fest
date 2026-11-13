@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "data": {
+    "run": {
+      "run_id": "d9c8791e-0a78-47b5-8df7-0e568cfa7afe",
+      "status": "done",
+      "progress": 100,
+      "step": "Done",
+      "output_url": "/workspace/Default/1794525717_00d90735_textured.glb",
+      "error": null,
+      "scene_candidate": {
+        "workspace_path": "Default/1794525717_00d90735_textured.glb"
+      },
+      "runId": "d9c8791e-0a78-47b5-8df7-0e568cfa7afe",
+      "outputUrl": "/workspace/Default/1794525717_00d90735_textured.glb",
+      "sceneCandidate": {
+        "workspace_path": "Default/1794525717_00d90735_textured.glb"
+      }
+    },
+    "meta": {
+      "terminal": true,
+      "operation": {
+        "kind": "workflowRun",
+        "runId": "d9c8791e-0a78-47b5-8df7-0e568cfa7afe"
+      },
+      "operationState": "succeeded",
+      "nextAction": {
+        "kind": "observe_terminal",
+        "tool": "modly.workflowRun.status",
+        "input": {
+          "runId": "d9c8791e-0a78-47b5-8df7-0e568cfa7afe"
+        }
+      }
+    }
+  }
+}

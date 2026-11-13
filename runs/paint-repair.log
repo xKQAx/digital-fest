@@ -1,0 +1,128 @@
+Processing c:\users\santi\onedrive\documents\modly\extensions\hunyuan3d-paint\wheels\hy3dgen-2.0.0-py3-none-any.whl
+Processing c:\users\santi\onedrive\documents\modly\extensions\hunyuan3d-paint\wheels\mesh_processor-0.0.0-cp311-cp311-win_amd64.whl
+Processing c:\users\santi\onedrive\documents\modly\extensions\hunyuan3d-paint\wheels\custom_rasterizer-0.1.0+torch270.cu128-cp311-cp311-win_amd64.whl
+Collecting transformers==4.53.3
+  Downloading transformers-4.53.3-py3-none-any.whl.metadata (40 kB)
+     -------------------------------------- 40.9/40.9 kB 495.0 kB/s eta 0:00:00
+Collecting huggingface_hub==0.36.2
+  Downloading huggingface_hub-0.36.2-py3-none-any.whl.metadata (15 kB)
+Collecting rembg
+  Downloading rembg-2.0.87-py3-none-any.whl.metadata (30 kB)
+Collecting onnxruntime-gpu>=1.21
+  Downloading onnxruntime_gpu-1.31.1-cp311-cp311-win_amd64.whl.metadata (6.2 kB)
+Collecting omegaconf
+  Downloading omegaconf-2.4.0-py3-none-any.whl.metadata (4.9 kB)
+Requirement already satisfied: filelock in c:\users\santi\onedrive\documents\modly\extensions\hunyuan3d-paint\venv\lib\site-packages (from transformers==4.53.3) (4.2.4)
+Requirement already satisfied: numpy>=1.17 in c:\users\santi\onedrive\documents\modly\extensions\hunyuan3d-paint\venv\lib\site-packages (from transformers==4.53.3) (2.4.6)
+Requirement already satisfied: packaging>=20.0 in c:\users\santi\onedrive\documents\modly\extensions\hunyuan3d-paint\venv\lib\site-packages (from transformers==4.53.3) (26.3)
+Requirement already satisfied: pyyaml>=5.1 in c:\users\santi\onedrive\documents\modly\extensions\hunyuan3d-paint\venv\lib\site-packages (from transformers==4.53.3) (6.0.3)
+Requirement already satisfied: regex!=2019.12.17 in c:\users\santi\onedrive\documents\modly\extensions\hunyuan3d-paint\venv\lib\site-packages (from transformers==4.53.3) (2026.11.9)
+Requirement already satisfied: requests in c:\users\santi\onedrive\documents\modly\extensions\hunyuan3d-paint\venv\lib\site-packages (from transformers==4.53.3) (2.34.2)
+Collecting tokenizers<0.22,>=0.21 (from transformers==4.53.3)
+  Downloading tokenizers-0.21.4-cp39-abi3-win_amd64.whl.metadata (6.9 kB)
+Requirement already satisfied: safetensors>=0.4.3 in c:\users\santi\onedrive\documents\modly\extensions\hunyuan3d-paint\venv\lib\site-packages (from transformers==4.53.3) (0.8.0)
+Requirement already satisfied: tqdm>=4.27 in c:\users\santi\onedrive\documents\modly\extensions\hunyuan3d-paint\venv\lib\site-packages (from transformers==4.53.3) (4.70.1)
+Requirement already satisfied: fsspec>=2023.5.0 in c:\users\santi\onedrive\documents\modly\extensions\hunyuan3d-paint\venv\lib\site-packages (from huggingface_hub==0.36.2) (2026.9.0)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in c:\users\santi\onedrive\documents\modly\extensions\hunyuan3d-paint\venv\lib\site-packages (from huggingface_hub==0.36.2) (4.16.0)
+Collecting jsonschema<5.0.0,>=4.25.1 (from rembg)
+  Downloading jsonschema-4.26.0-py3-none-any.whl.metadata (7.6 kB)
+Requirement already satisfied: pillow<14.0.0,>=12.3.0 in c:\users\santi\onedrive\documents\modly\extensions\hunyuan3d-paint\venv\lib\site-packages (from rembg) (13.0.0)
+Collecting pooch<2.0.0,>=1.8.2 (from rembg)
+  Downloading pooch-1.9.0-py3-none-any.whl.metadata (10 kB)
+Collecting pymatting<2.0.0,>=1.1.14 (from rembg)
+  Downloading pymatting-1.1.16-py3-none-any.whl.metadata (9.1 kB)
+Collecting scikit-image<0.27.0,>=0.26.0 (from rembg)
+  Downloading scikit_image-0.26.0-cp311-cp311-win_amd64.whl.metadata (15 kB)
+Requirement already satisfied: scipy<2.0.0,>=1.16.3 in c:\users\santi\onedrive\documents\modly\extensions\hunyuan3d-paint\venv\lib\site-packages (from rembg) (1.17.1)
+Collecting flatbuffers (from onnxruntime-gpu>=1.21)
+  Downloading flatbuffers-25.12.19-py2.py3-none-any.whl.metadata (1.0 kB)
+Collecting protobuf>=4.25.8 (from onnxruntime-gpu>=1.21)
+  Downloading protobuf-7.36.2-cp310-abi3-win_amd64.whl.metadata (595 bytes)
+Collecting pybind11>=2.6.0 (from mesh-processor==0.0.0)
+  Downloading pybind11-3.1.0-py3-none-any.whl.metadata (10 kB)
+Collecting attrs>=22.2.0 (from jsonschema<5.0.0,>=4.25.1->rembg)
+  Downloading attrs-26.1.0-py3-none-any.whl.metadata (8.8 kB)
+Collecting jsonschema-specifications>=2023.03.6 (from jsonschema<5.0.0,>=4.25.1->rembg)
+  Downloading jsonschema_specifications-2025.9.1-py3-none-any.whl.metadata (2.9 kB)
+Collecting referencing>=0.28.4 (from jsonschema<5.0.0,>=4.25.1->rembg)
+  Downloading referencing-0.37.0-py3-none-any.whl.metadata (2.8 kB)
+Collecting rpds-py>=0.25.0 (from jsonschema<5.0.0,>=4.25.1->rembg)
+  Downloading rpds_py-2026.9.1-cp311-cp311-win_amd64.whl.metadata (4.2 kB)
+Collecting platformdirs>=2.5.0 (from pooch<2.0.0,>=1.8.2->rembg)
+  Downloading platformdirs-4.14.5-py3-none-any.whl.metadata (5.7 kB)
+Collecting numba>=0.60.0 (from pymatting<2.0.0,>=1.1.14->rembg)
+  Downloading numba-0.68.1-cp311-cp311-win_amd64.whl.metadata (2.9 kB)
+Requirement already satisfied: charset_normalizer<4,>=2 in c:\users\santi\onedrive\documents\modly\extensions\hunyuan3d-paint\venv\lib\site-packages (from requests->transformers==4.53.3) (3.5.2)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\santi\onedrive\documents\modly\extensions\hunyuan3d-paint\venv\lib\site-packages (from requests->transformers==4.53.3) (3.20)
+Requirement already satisfied: urllib3<3,>=1.26 in c:\users\santi\onedrive\documents\modly\extensions\hunyuan3d-paint\venv\lib\site-packages (from requests->transformers==4.53.3) (2.8.0)
+Requirement already satisfied: certifi>=2023.5.7 in c:\users\santi\onedrive\documents\modly\extensions\hunyuan3d-paint\venv\lib\site-packages (from requests->transformers==4.53.3) (2026.10.23)
+Requirement already satisfied: networkx>=3.0 in c:\users\santi\onedrive\documents\modly\extensions\hunyuan3d-paint\venv\lib\site-packages (from scikit-image<0.27.0,>=0.26.0->rembg) (3.6.1)
+Collecting imageio!=2.35.0,>=2.33 (from scikit-image<0.27.0,>=0.26.0->rembg)
+  Downloading imageio-2.38.1-py3-none-any.whl.metadata (9.7 kB)
+Collecting tifffile>=2022.8.12 (from scikit-image<0.27.0,>=0.26.0->rembg)
+  Downloading tifffile-2026.3.3-py3-none-any.whl.metadata (31 kB)
+Collecting lazy-loader>=0.4 (from scikit-image<0.27.0,>=0.26.0->rembg)
+  Downloading lazy_loader-0.6-py3-none-any.whl.metadata (6.0 kB)
+Requirement already satisfied: colorama in c:\users\santi\onedrive\documents\modly\extensions\hunyuan3d-paint\venv\lib\site-packages (from tqdm>=4.27->transformers==4.53.3) (0.4.6)
+Collecting llvmlite<0.51,>=0.50.0dev0 (from numba>=0.60.0->pymatting<2.0.0,>=1.1.14->rembg)
+  Downloading llvmlite-0.50.0-cp311-cp311-win_amd64.whl.metadata (5.0 kB)
+Downloading transformers-4.53.3-py3-none-any.whl (10.8 MB)
+   ---------------------------------------- 10.8/10.8 MB 27.3 MB/s eta 0:00:00
+Downloading huggingface_hub-0.36.2-py3-none-any.whl (566 kB)
+   ---------------------------------------- 566.4/566.4 kB ? eta 0:00:00
+Downloading rembg-2.0.87-py3-none-any.whl (70 kB)
+   ---------------------------------------- 70.6/70.6 kB ? eta 0:00:00
+Downloading onnxruntime_gpu-1.31.1-cp311-cp311-win_amd64.whl (168.1 MB)
+   -------------------------------------- 168.1/168.1 MB 108.8 MB/s eta 0:00:00
+Downloading omegaconf-2.4.0-py3-none-any.whl (254 kB)
+   ---------------------------------------- 254.2/254.2 kB ? eta 0:00:00
+Downloading jsonschema-4.26.0-py3-none-any.whl (90 kB)
+   ---------------------------------------- 90.6/90.6 kB ? eta 0:00:00
+Downloading pooch-1.9.0-py3-none-any.whl (67 kB)
+   ---------------------------------------- 67.2/67.2 kB ? eta 0:00:00
+Downloading protobuf-7.36.2-cp310-abi3-win_amd64.whl (456 kB)
+   ---------------------------------------- 456.5/456.5 kB ? eta 0:00:00
+Downloading pybind11-3.1.0-py3-none-any.whl (319 kB)
+   ---------------------------------------- 319.4/319.4 kB ? eta 0:00:00
+Downloading pymatting-1.1.16-py3-none-any.whl (56 kB)
+   ---------------------------------------- 56.3/56.3 kB ? eta 0:00:00
+Downloading scikit_image-0.26.0-cp311-cp311-win_amd64.whl (11.9 MB)
+   ---------------------------------------- 11.9/11.9 MB 131.0 MB/s eta 0:00:00
+Downloading tokenizers-0.21.4-cp39-abi3-win_amd64.whl (2.5 MB)
+   ---------------------------------------- 2.5/2.5 MB 156.1 MB/s eta 0:00:00
+Downloading flatbuffers-25.12.19-py2.py3-none-any.whl (26 kB)
+Downloading attrs-26.1.0-py3-none-any.whl (67 kB)
+   ---------------------------------------- 67.5/67.5 kB ? eta 0:00:00
+Downloading imageio-2.38.1-py3-none-any.whl (328 kB)
+   ---------------------------------------- 328.4/328.4 kB ? eta 0:00:00
+Downloading jsonschema_specifications-2025.9.1-py3-none-any.whl (18 kB)
+Downloading lazy_loader-0.6-py3-none-any.whl (8.8 kB)
+Downloading numba-0.68.1-cp311-cp311-win_amd64.whl (2.8 MB)
+   ---------------------------------------- 2.8/2.8 MB 188.2 MB/s eta 0:00:00
+Downloading platformdirs-4.14.5-py3-none-any.whl (35 kB)
+Downloading referencing-0.37.0-py3-none-any.whl (26 kB)
+Downloading rpds_py-2026.9.1-cp311-cp311-win_amd64.whl (226 kB)
+   ---------------------------------------- 226.0/226.0 kB ? eta 0:00:00
+Downloading tifffile-2026.3.3-py3-none-any.whl (243 kB)
+   ---------------------------------------- 244.0/244.0 kB ? eta 0:00:00
+Downloading llvmlite-0.50.0-cp311-cp311-win_amd64.whl (41.9 MB)
+   ---------------------------------------- 41.9/41.9 MB 131.1 MB/s eta 0:00:00
+Installing collected packages: hy3dgen, flatbuffers, custom-rasterizer, tifffile, rpds-py, pybind11, protobuf, platformdirs, omegaconf, llvmlite, lazy-loader, imageio, attrs, scikit-image, referencing, pooch, onnxruntime-gpu, numba, mesh-processor, huggingface_hub, tokenizers, pymatting, jsonschema-specifications, transformers, jsonschema, rembg
+  Attempting uninstall: huggingface_hub
+    Found existing installation: huggingface_hub 2.4.0
+    Uninstalling huggingface_hub-2.4.0:
+      Successfully uninstalled huggingface_hub-2.4.0
+  Attempting uninstall: tokenizers
+    Found existing installation: tokenizers 0.23.3
+    Uninstalling tokenizers-0.23.3:
+      Successfully uninstalled tokenizers-0.23.3
+  Attempting uninstall: transformers
+    Found existing installation: transformers 5.22.2
+    Uninstalling transformers-5.22.2:
+      Successfully uninstalled transformers-5.22.2
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+diffusers 0.43.0 requires huggingface-hub<3.0,>=1.32.0, but you have huggingface-hub 0.36.2 which is incompatible.
+Successfully installed attrs-26.1.0 custom-rasterizer-0.1 flatbuffers-25.12.19 huggingface_hub-0.36.2 hy3dgen-2.0.0 imageio-2.38.1 jsonschema-4.26.0 jsonschema-specifications-2025.9.1 lazy-loader-0.6 llvmlite-0.50.0 mesh-processor-0.0.0 numba-0.68.1 omegaconf-2.4.0 onnxruntime-gpu-1.31.1 platformdirs-4.14.5 pooch-1.9.0 protobuf-7.36.2 pybind11-3.1.0 pymatting-1.1.16 referencing-0.37.0 rembg-2.0.87 rpds-py-2026.9.1 scikit-image-0.26.0 tifffile-2026.3.3 tokenizers-0.21.4 transformers-4.53.3
+
+[notice] A new release of pip is available: 24.0 -> 26.3
+[notice] To update, run: C:\Users\santi\OneDrive\Documents\Modly\extensions\hunyuan3d-paint\venv\Scripts\python.exe -m pip install --upgrade pip

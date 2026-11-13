@@ -1,0 +1,9 @@
+2.7.0+cu128 ['sm_50', 'sm_60', 'sm_61', 'sm_70', 'sm_75', 'sm_80', 'sm_86', 'sm_90', 'sm_100', 'sm_120']
+start 40
+done 40 torch.Size([1, 8, 4096, 40])
+start 64
+done 64 torch.Size([1, 8, 4096, 64])
+start 80
+done 80 torch.Size([1, 8, 4096, 80])
+start 160
+done 160 torch.Size([1, 8, 4096, 160])

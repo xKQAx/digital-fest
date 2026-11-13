@@ -1,0 +1,5 @@
+Loading pipeline
+2026-11-11 12:43:04,067 - hy3dgen.shapgen - INFO - Try to load model from local path: C:\Users\santi\OneDrive\Documents\Modly\models\hunyuan3d-mini\generate\hunyuan3d-dit-v2-mini
+2026-11-11 12:43:04,070 - hy3dgen.shapgen - INFO - Loading model from C:\Users\santi\OneDrive\Documents\Modly\models\hunyuan3d-mini\generate\hunyuan3d-dit-v2-mini\model.fp16.safetensors
+PointCrossAttentionEncoder INFO: pc_sharpedge_size is given, using pc_size=5120, pc_sharpedge_size=5120
+PIPELINE READY

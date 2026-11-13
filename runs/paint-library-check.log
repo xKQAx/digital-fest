@@ -1,0 +1,75 @@
+before 7.826089859008789e-05
+Traceback (most recent call last):
+  File "<stdin>", line 11, in <module>
+  File "C:\Users\santi\OneDrive\Documents\Modly\extensions/hunyuan3d-paint/vendor\hy3dgen\texgen\differentiable_renderer\mesh_render.py", line 442, in render_normal
+    rast_out, rast_out_db = self.raster_rasterize(
+                            ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\santi\OneDrive\Documents\Modly\extensions/hunyuan3d-paint/vendor\hy3dgen\texgen\differentiable_renderer\mesh_render.py", line 171, in raster_rasterize
+    findices, barycentric = self.raster.rasterize(pos, tri, resolution)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\santi\OneDrive\Documents\Modly\extensions\hunyuan3d-paint\venv\Lib\site-packages\custom_rasterizer\render.py", line 21, in rasterize
+    findices, barycentric = custom_rasterizer_kernel.rasterize_image(pos[0], tri, clamp_depth, resolution[1],
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Exception raised from c10_cuda_check_implementation at C:\actions-runner\_work\pytorch\pytorch\pytorch\c10\cuda\CUDAException.cpp:43 (most recent call first):
+00007FFE51CB2C2400007FFE51CB2B80 c10.dll!c10::Error::Error [<unknown file> @ <unknown line number>]
+00007FFE51CB170A00007FFE51CB16B0 c10.dll!c10::detail::torchCheckFail [<unknown file> @ <unknown line number>]
+00007FFE58436BBF00007FFE584368B0 c10_cuda.dll!c10::cuda::c10_cuda_check_implementation [<unknown file> @ <unknown line number>]
+00007FFE58422F7C00007FFE58421BB0 c10_cuda.dll!c10::cuda::CUDAKernelLaunchRegistry::insert [<unknown file> @ <unknown line number>]
+00007FFE5842B0B800007FFE5842A3C0 c10_cuda.dll!c10::cuda::MemPool::id [<unknown file> @ <unknown line number>]
+00007FFE5842BCE000007FFE5842A3C0 c10_cuda.dll!c10::cuda::MemPool::id [<unknown file> @ <unknown line number>]
+00007FFE58423EB600007FFE58421BB0 c10_cuda.dll!c10::cuda::CUDAKernelLaunchRegistry::insert [<unknown file> @ <unknown line number>]
+00007FFE51C738D300007FFE51C73870 c10.dll!c10::StorageImpl::StorageImpl [<unknown file> @ <unknown line number>]
+00007FFCEBAFA8EE00007FFCEBAFA1B0 torch_cpu.dll!at::DynamicLibrary::sym [<unknown file> @ <unknown line number>]
+00007FFCEBAFCC0400007FFCEBAFCBD0 torch_cpu.dll!at::detail::empty_generic [<unknown file> @ <unknown line number>]
+00007FFC22716CC500007FFC22716BE0 torch_cuda.dll!at::detail::empty_cuda [<unknown file> @ <unknown line number>]
+00007FFC22716BBE00007FFC22716B00 torch_cuda.dll!at::detail::empty_cuda [<unknown file> @ <unknown line number>]
+00007FFC228470D800007FFC22847070 torch_cuda.dll!at::native::empty_cuda [<unknown file> @ <unknown line number>]
+00007FFC2461C21100007FFC245C0B30 torch_cuda.dll!at::cuda::where_outf [<unknown file> @ <unknown line number>]
+00007FFC2450F21E00007FFC2449F6A0 torch_cuda.dll!at::cuda::bucketize_outf [<unknown file> @ <unknown line number>]
+00007FFCEC6DF89400007FFCEC6C5150 torch_cpu.dll!at::_ops::xlogy__Tensor::redispatch [<unknown file> @ <unknown line number>]
+00007FFCEC75077100007FFCEC6C5150 torch_cpu.dll!at::_ops::xlogy__Tensor::redispatch [<unknown file> @ <unknown line number>]
+00007FFCEC82DE0E00007FFCEC82DD30 torch_cpu.dll!at::_ops::empty_memory_format::redispatch [<unknown file> @ <unknown line number>]
+00007FFCECABBC9100007FFCECA98030 torch_cpu.dll!at::_ops::view_as_real::redispatch [<unknown file> @ <unknown line number>]
+00007FFCECAB9B7E00007FFCECA98030 torch_cpu.dll!at::_ops::view_as_real::redispatch [<unknown file> @ <unknown line number>]
+00007FFCEC6DF89400007FFCEC6C5150 torch_cpu.dll!at::_ops::xlogy__Tensor::redispatch [<unknown file> @ <unknown line number>]
+00007FFCEC798E3500007FFCEC798BE0 torch_cpu.dll!at::_ops::empty_memory_format::call [<unknown file> @ <unknown line number>]
+00007FFCEBC387C900007FFCEBC19490 torch_cpu.dll!at::functorch::reshape_dim_outof_symint [<unknown file> @ <unknown line number>]
+00007FFCEC073CCC00007FFCEC073BC0 torch_cpu.dll!at::native::zeros_symint [<unknown file> @ <unknown line number>]
+00007FFCECDD477000007FFCECDCD770 torch_cpu.dll!at::compositeexplicitautograd::view_copy_symint_outf [<unknown file> @ <unknown line number>]
+00007FFCECDA27E100007FFCECD59140 torch_cpu.dll!at::compositeexplicitautograd::bucketize_outf [<unknown file> @ <unknown line number>]
+00007FFCEC4585AC00007FFCEC3A2660 torch_cpu.dll!at::TensorMaker::make_tensor [<unknown file> @ <unknown line number>]
+00007FFCEC55621100007FFCEC556140 torch_cpu.dll!at::_ops::zeros::redispatch [<unknown file> @ <unknown line number>]
+00007FFCECAC01A400007FFCECA98030 torch_cpu.dll!at::_ops::view_as_real::redispatch [<unknown file> @ <unknown line number>]
+00007FFCECAB9A6100007FFCECA98030 torch_cpu.dll!at::_ops::view_as_real::redispatch [<unknown file> @ <unknown line number>]
+00007FFCEC4EBFEA00007FFCEC4EBDE0 torch_cpu.dll!at::_ops::zeros::call [<unknown file> @ <unknown line number>]
+00007FFE34A55E2C00007FFE34A55930 custom_rasterizer_kernel.cp311-win_amd64.pyd!c10::ivalue::Object::operator= [<unknown file> @ <unknown line number>]
+00007FFE34A7596E00007FFE34A72E50 custom_rasterizer_kernel.cp311-win_amd64.pyd!PyInit_custom_rasterizer_kernel [<unknown file> @ <unknown line number>]
+00007FFE34A72E0D00007FFE34A55930 custom_rasterizer_kernel.cp311-win_amd64.pyd!c10::ivalue::Object::operator= [<unknown file> @ <unknown line number>]
+00007FFE34A7440400007FFE34A72E50 custom_rasterizer_kernel.cp311-win_amd64.pyd!PyInit_custom_rasterizer_kernel [<unknown file> @ <unknown line number>]
+00007FFE34A737DB00007FFE34A72E50 custom_rasterizer_kernel.cp311-win_amd64.pyd!PyInit_custom_rasterizer_kernel [<unknown file> @ <unknown line number>]
+00007FFE34A738C400007FFE34A72E50 custom_rasterizer_kernel.cp311-win_amd64.pyd!PyInit_custom_rasterizer_kernel [<unknown file> @ <unknown line number>]
+00007FFE34A5EAE300007FFE34A55930 custom_rasterizer_kernel.cp311-win_amd64.pyd!c10::ivalue::Object::operator= [<unknown file> @ <unknown line number>]
+00007FFE564B48CE00007FFE564B4670 python311.dll!PyObject_MakeTpCall [<unknown file> @ <unknown line number>]
+00007FFE564A650500007FFE564A6270 python311.dll!PyObject_Vectorcall [<unknown file> @ <unknown line number>]
+00007FFE564A7A7700007FFE564A7430 python311.dll!PyEval_EvalFrameDefault [<unknown file> @ <unknown line number>]
+00007FFE5651497300007FFE565148D8 python311.dll!PyMapping_Check [<unknown file> @ <unknown line number>]
+00007FFE56513FB300007FFE56513F1C python311.dll!PyEval_EvalCode [<unknown file> @ <unknown line number>]
+00007FFE565123AA00007FFE56512220 python311.dll!PyArena_New [<unknown file> @ <unknown line number>]
+00007FFE5651232A00007FFE56512220 python311.dll!PyArena_New [<unknown file> @ <unknown line number>]
+00007FFE5659DF0000007FFE5659DC20 python311.dll!PyUnicode_Tailmatch [<unknown file> @ <unknown line number>]
+00007FFE5659ED2D00007FFE5659EC10 python311.dll!PyRun_SimpleFileObject [<unknown file> @ <unknown line number>]
+00007FFE5659D8E000007FFE5659D88C python311.dll!PyRun_AnyFileObject [<unknown file> @ <unknown line number>]
+00007FFE566DE0B700007FFE566DE054 python311.dll!PyRun_AnyFileExFlags [<unknown file> @ <unknown line number>]
+00007FFE5665CBB100007FFE56620174 python311.dll!PyThread_tss_is_created [<unknown file> @ <unknown line number>]
+00007FFE564DC80C00007FFE564DC688 python311.dll!Py_RunMain [<unknown file> @ <unknown line number>]
+00007FFE564DC69D00007FFE564DC688 python311.dll!Py_RunMain [<unknown file> @ <unknown line number>]
+00007FFE564DC49D00007FFE564DC478 python311.dll!Py_Main [<unknown file> @ <unknown line number>]
+00007FF7DA401230 <unknown symbol address> python.exe!<unknown symbol> [<unknown file> @ <unknown line number>]
+00007FFED8E2DDA700007FFED8E2DD90 KERNEL32.DLL!BaseThreadInitThunk [<unknown file> @ <unknown line number>]
+00007FFEDA339C5C00007FFEDA339C30 ntdll.dll!RtlUserThreadStart [<unknown file> @ <unknown line number>]
+

@@ -1,0 +1,34 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Workflow run 74c32a4f-90a0-496b-a583-d5c4a5dec332 created (pending)."
+    }
+  ],
+  "structuredContent": {
+    "ok": true,
+    "data": {
+      "run": {
+        "run_id": "74c32a4f-90a0-496b-a583-d5c4a5dec332",
+        "status": "pending",
+        "runId": "74c32a4f-90a0-496b-a583-d5c4a5dec332"
+      },
+      "meta": {
+        "terminal": false,
+        "operation": {
+          "kind": "workflowRun",
+          "runId": "74c32a4f-90a0-496b-a583-d5c4a5dec332"
+        },
+        "operationState": "in_progress",
+        "nextAction": {
+          "kind": "poll_status",
+          "tool": "modly.workflowRun.status",
+          "input": {
+            "runId": "74c32a4f-90a0-496b-a583-d5c4a5dec332"
+          }
+        },
+        "suggestedPollIntervalMs": 1000
+      }
+    }
+  }
+}

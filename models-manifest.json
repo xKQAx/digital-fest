@@ -1,0 +1,29 @@
+[
+  {
+    "file": "caballero-oscuro.glb",
+    "bytes": 1201324,
+    "triangles": 50000,
+    "vertices": 25004,
+    "watertight": true,
+    "has_normals": true,
+    "has_textures": false
+  },
+  {
+    "file": "robot-programador.glb",
+    "bytes": 1201276,
+    "triangles": 50000,
+    "vertices": 25002,
+    "watertight": true,
+    "has_normals": true,
+    "has_textures": false
+  },
+  {
+    "file": "torre-backend.glb",
+    "bytes": 1201200,
+    "triangles": 50000,
+    "vertices": 25000,
+    "watertight": true,
+    "has_normals": true,
+    "has_textures": false
+  }
+]

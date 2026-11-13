@@ -1,0 +1,43 @@
+Collecting diffusers==0.39.0
+  Downloading diffusers-0.39.0-py3-none-any.whl.metadata (20 kB)
+Requirement already satisfied: importlib_metadata in c:\users\santi\onedrive\documents\modly\extensions\hunyuan3d-paint\venv\lib\site-packages (from diffusers==0.39.0) (10.2.0)
+Requirement already satisfied: filelock in c:\users\santi\onedrive\documents\modly\extensions\hunyuan3d-paint\venv\lib\site-packages (from diffusers==0.39.0) (4.2.4)
+Collecting httpx<1.0.0 (from diffusers==0.39.0)
+  Downloading httpx-0.28.1-py3-none-any.whl.metadata (7.1 kB)
+Requirement already satisfied: huggingface-hub<2.0,>=0.34.0 in c:\users\santi\onedrive\documents\modly\extensions\hunyuan3d-paint\venv\lib\site-packages (from diffusers==0.39.0) (0.36.2)
+Requirement already satisfied: numpy in c:\users\santi\onedrive\documents\modly\extensions\hunyuan3d-paint\venv\lib\site-packages (from diffusers==0.39.0) (2.4.6)
+Requirement already satisfied: regex!=2019.12.17 in c:\users\santi\onedrive\documents\modly\extensions\hunyuan3d-paint\venv\lib\site-packages (from diffusers==0.39.0) (2026.11.9)
+Requirement already satisfied: requests in c:\users\santi\onedrive\documents\modly\extensions\hunyuan3d-paint\venv\lib\site-packages (from diffusers==0.39.0) (2.34.2)
+Requirement already satisfied: safetensors>=0.8.0 in c:\users\santi\onedrive\documents\modly\extensions\hunyuan3d-paint\venv\lib\site-packages (from diffusers==0.39.0) (0.8.0)
+Requirement already satisfied: Pillow in c:\users\santi\onedrive\documents\modly\extensions\hunyuan3d-paint\venv\lib\site-packages (from diffusers==0.39.0) (13.0.0)
+Requirement already satisfied: anyio in c:\users\santi\onedrive\documents\modly\extensions\hunyuan3d-paint\venv\lib\site-packages (from httpx<1.0.0->diffusers==0.39.0) (4.16.0)
+Requirement already satisfied: certifi in c:\users\santi\onedrive\documents\modly\extensions\hunyuan3d-paint\venv\lib\site-packages (from httpx<1.0.0->diffusers==0.39.0) (2026.10.23)
+Collecting httpcore==1.* (from httpx<1.0.0->diffusers==0.39.0)
+  Downloading httpcore-1.0.9-py3-none-any.whl.metadata (21 kB)
+Requirement already satisfied: idna in c:\users\santi\onedrive\documents\modly\extensions\hunyuan3d-paint\venv\lib\site-packages (from httpx<1.0.0->diffusers==0.39.0) (3.20)
+Requirement already satisfied: h11>=0.16 in c:\users\santi\onedrive\documents\modly\extensions\hunyuan3d-paint\venv\lib\site-packages (from httpcore==1.*->httpx<1.0.0->diffusers==0.39.0) (0.16.0)
+Requirement already satisfied: fsspec>=2023.5.0 in c:\users\santi\onedrive\documents\modly\extensions\hunyuan3d-paint\venv\lib\site-packages (from huggingface-hub<2.0,>=0.34.0->diffusers==0.39.0) (2026.9.0)
+Requirement already satisfied: packaging>=20.9 in c:\users\santi\onedrive\documents\modly\extensions\hunyuan3d-paint\venv\lib\site-packages (from huggingface-hub<2.0,>=0.34.0->diffusers==0.39.0) (26.3)
+Requirement already satisfied: pyyaml>=5.1 in c:\users\santi\onedrive\documents\modly\extensions\hunyuan3d-paint\venv\lib\site-packages (from huggingface-hub<2.0,>=0.34.0->diffusers==0.39.0) (6.0.3)
+Requirement already satisfied: tqdm>=4.42.1 in c:\users\santi\onedrive\documents\modly\extensions\hunyuan3d-paint\venv\lib\site-packages (from huggingface-hub<2.0,>=0.34.0->diffusers==0.39.0) (4.70.1)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in c:\users\santi\onedrive\documents\modly\extensions\hunyuan3d-paint\venv\lib\site-packages (from huggingface-hub<2.0,>=0.34.0->diffusers==0.39.0) (4.16.0)
+Requirement already satisfied: zipp>=3.20 in c:\users\santi\onedrive\documents\modly\extensions\hunyuan3d-paint\venv\lib\site-packages (from importlib_metadata->diffusers==0.39.0) (4.1.2)
+Requirement already satisfied: lazy-importer>=0.1 in c:\users\santi\onedrive\documents\modly\extensions\hunyuan3d-paint\venv\lib\site-packages (from importlib_metadata->diffusers==0.39.0) (0.1.0)
+Requirement already satisfied: charset_normalizer<4,>=2 in c:\users\santi\onedrive\documents\modly\extensions\hunyuan3d-paint\venv\lib\site-packages (from requests->diffusers==0.39.0) (3.5.2)
+Requirement already satisfied: urllib3<3,>=1.26 in c:\users\santi\onedrive\documents\modly\extensions\hunyuan3d-paint\venv\lib\site-packages (from requests->diffusers==0.39.0) (2.8.0)
+Requirement already satisfied: colorama in c:\users\santi\onedrive\documents\modly\extensions\hunyuan3d-paint\venv\lib\site-packages (from tqdm>=4.42.1->huggingface-hub<2.0,>=0.34.0->diffusers==0.39.0) (0.4.6)
+Downloading diffusers-0.39.0-py3-none-any.whl (5.6 MB)
+   ---------------------------------------- 5.6/5.6 MB 39.9 MB/s eta 0:00:00
+Downloading httpx-0.28.1-py3-none-any.whl (73 kB)
+   ---------------------------------------- 73.5/73.5 kB ? eta 0:00:00
+Downloading httpcore-1.0.9-py3-none-any.whl (78 kB)
+   ---------------------------------------- 78.8/78.8 kB ? eta 0:00:00
+Installing collected packages: httpcore, httpx, diffusers
+  Attempting uninstall: diffusers
+    Found existing installation: diffusers 0.43.0
+    Uninstalling diffusers-0.43.0:
+      Successfully uninstalled diffusers-0.43.0
+Successfully installed diffusers-0.39.0 httpcore-1.0.9 httpx-0.28.1
+
+[notice] A new release of pip is available: 24.0 -> 26.3
+[notice] To update, run: C:\Users\santi\OneDrive\Documents\Modly\extensions\hunyuan3d-paint\venv\Scripts\python.exe -m pip install --upgrade pip
